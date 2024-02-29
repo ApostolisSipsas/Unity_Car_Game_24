@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{ECDE6879-FAD3-8CF1-7B23-5F8E7B574766}</ProjectGuid>
+    <ProjectGuid>{8EE395DB-C0DD-1067-4D7E-274C2C29BFBB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -60,52 +60,23 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.19f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\RoadArchitect-master\GSDRootUtil.cs" />
-    <Compile Include="Assets\RoadArchitect-master\GSDUnitTests.cs" />
-    <Compile Include="Assets\RoadArchitect-master\Spline\GSDSplineC.cs" />
-    <Compile Include="Assets\RoadArchitect-master\GSDRoadMeshSplinate.cs" />
-    <Compile Include="Assets\RoadArchitect-master\GSDRoadAutomation.cs" />
-    <Compile Include="Assets\RoadArchitect-master\GSDRoadUtilityEditor.cs" />
-    <Compile Include="Assets\RoadArchitect-master\GSDRoadUtilityT.cs" />
-    <Compile Include="Assets\RoadArchitect-master\GSDRoadIntersection.cs" />
-    <Compile Include="Assets\RoadArchitect-master\GSDRoadEdgeObjects.cs" />
-    <Compile Include="Assets\RoadArchitect-master\GSDRoadSystem.cs" />
-    <Compile Include="Assets\RoadArchitect-master\GSDTrafficLightController.cs" />
-    <Compile Include="Assets\RoadArchitect-master\GSDRoad.cs" />
-    <Compile Include="Assets\RoadArchitect-master\GSDRoadUtility.cs" />
-    <Compile Include="Assets\RoadArchitect-master\Spline\GSDSplineI.cs" />
-    <Compile Include="Assets\RoadArchitect-master\GSDRigidBody.cs" />
-    <Compile Include="Assets\RoadArchitect-master\Spline\GSDSplineF.cs" />
     <Compile Include="Assets\playerMove.cs" />
-    <Compile Include="Assets\RoadArchitect-master\Spline\GSDSplineN.cs" />
     <Compile Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Scripts\CTI_CustomWind.cs" />
-    <Compile Include="Assets\RoadArchitect-master\GSDTerrain.cs" />
     <Compile Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Scripts\CTI_Utils.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\CTI_LOD_Bark_Array_301.shader" />
-    <None Include="Assets\RoadArchitect-master\Shaders\GSDShoulderDirtDX11.shader" />
     <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\CTI_LOD_Billboard_301.shader" />
-    <None Include="Assets\RoadArchitect-master\Shaders\GSDStandardTiling.shader" />
-    <None Include="Assets\RoadArchitect-master\Shaders\GSDShoulderDirt.shader" />
     <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Resources\CTI_Camera-DepthNormalTexture_301.shader" />
-    <None Include="Assets\RoadArchitect-master\Shaders\GSDStandardOffset.shader" />
-    <None Include="Assets\RoadArchitect-master\Shaders\GSDRoadShaderDX11.shader" />
-    <None Include="Assets\RoadArchitect-master\Readme.txt" />
-    <None Include="Assets\RoadArchitect-master\Shaders\GSDRoadShaderLowDX11.shader" />
-    <None Include="Assets\RoadArchitect-master\Shaders\GSDTransparentWithShadows.shader" />
     <None Include="Assets\Conifers [BOTD]\Conifers [BOTD] URP Readme.txt" />
     <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Resources\CTI_Internal-DeferredShading.shader" />
     <None Include="Assets\Conifers [BOTD]\Getting started.txt" />
-    <None Include="Assets\RoadArchitect-master\Shaders\GSDRoadShaderLow.shader" />
     <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\Includes\CTI_BillboardVertex_301.cginc" />
     <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\Includes\CTI_TranslucentLighting_301.cginc" />
     <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\CTI_LOD_Bark_301.shader" />
     <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Resources\CTI_Internal-DeferredReflections.shader" />
-    <None Include="Assets\RoadArchitect-master\Shaders\GSDTransparentWithShadowsZ.shader" />
     <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\Includes\CTI_indirect.cginc" />
     <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\CTI_LOD_Leaves_301.shader" />
-    <None Include="Assets\RoadArchitect-master\Shaders\GSDRoadShader.shader" />
     <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\Includes\CTI_Builtin4xTreeLibraryTumbling_301.cginc" />
   </ItemGroup>
   <ItemGroup>
@@ -939,113 +910,117 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{E892DA5A-2566-DD2F-EDD5-524662133B36}</Project>
-      <Name>Unity.Timeline</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj">
-      <Project>{FCE14288-327C-D390-BEF2-56E519A63B40}</Project>
-      <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{C60097FD-FF72-7607-D156-CB54DEEE4E73}</Project>
-      <Name>UnityEngine.UI</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.EditorCoroutines.Editor.csproj">
-      <Project>{008B4B9E-CD57-36A5-B8B0-2B699A64F75B}</Project>
+      <Project>{4C11200E-18BF-80BB-80ED-014C2137617C}</Project>
       <Name>Unity.EditorCoroutines.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.SettingsProvider.Editor.csproj">
-      <Project>{78E27738-27EC-5B6A-7FED-B28C066A56BE}</Project>
-      <Name>Unity.VisualScripting.SettingsProvider.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.TerrainTools.Editor.csproj">
-      <Project>{5EDAAD82-BC07-09FE-A02E-05A5DEC2E79B}</Project>
+      <Project>{36CE5323-5FCA-D3D0-6065-AB38E935E099}</Project>
       <Name>Unity.TerrainTools.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="com.unity.cinemachine.editor.csproj">
-      <Project>{FB899B6A-270E-6032-10A2-6EE8CC84C797}</Project>
+      <Project>{EB9D26AB-3FB7-FFBC-4873-094A8E3B7152}</Project>
       <Name>com.unity.cinemachine.editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Performance.Profile-Analyzer.Editor.csproj">
-      <Project>{66E8DEED-5AF3-FF08-9CA5-F99B52CE93F6}</Project>
-      <Name>Unity.Performance.Profile-Analyzer.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.csproj">
-      <Project>{25B1AD21-0915-FA7B-BD1A-698CBDFB42DA}</Project>
-      <Name>Unity.TestTools.CodeCoverage.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj">
-      <Project>{F3E9C89D-D15F-9C5D-2B3D-40AD257B5D16}</Project>
-      <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Model</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
-      <Project>{523225C6-5E80-AC66-3B67-5EB45B2D9110}</Project>
+      <Project>{12A22DDB-A224-3719-52B6-BD2FD1FEC210}</Project>
       <Name>Unity.PlasticSCM.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.State.Editor.csproj">
-      <Project>{F54E4460-C53D-6E0F-4930-CD2A5AD32EE6}</Project>
-      <Name>Unity.VisualScripting.State.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Editor.csproj">
-      <Project>{A18A77D1-395B-9DE5-7CF2-ED9C10EF6B4F}</Project>
+      <Project>{85D0FF55-AE3D-F437-827D-AC598126EE6C}</Project>
       <Name>Unity.Timeline.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
-      <Project>{325CBA3D-9F66-5574-9863-E82F4408566F}</Project>
+      <Project>{DDE9E5D6-8035-8B58-2841-19706DA6E844}</Project>
       <Name>Unity.VisualScripting.Shared.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TerrainTools.csproj">
-      <Project>{A7D58E05-A6CA-61BA-2A45-91AB44089313}</Project>
+      <Project>{B6ED67D4-19D3-7F50-F0DB-75BB01FE4069}</Project>
       <Name>Unity.TerrainTools</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
-      <Project>{AA4AC23C-5F28-86B9-2BE6-827801FAF818}</Project>
+      <Project>{F49BE9DC-2805-88A4-FC2E-CF311E81562E}</Project>
       <Name>Unity.VisualStudio.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{6DFBA576-67B4-742F-8A4E-0DCE82A83F40}</Project>
-      <Name>Unity.TextMeshPro</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Core.csproj">
-      <Project>{FF1361AF-15F9-0FDE-8B1A-5ADC4EE50B64}</Project>
-      <Name>Unity.VisualScripting.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
-      <Project>{3540C2E1-AA7C-D763-2C12-B51CEA2D055A}</Project>
-      <Name>Unity.TextMeshPro.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{DA7744C3-E827-CDC9-5E4B-850ADC7D37B7}</Project>
+      <Project>{5C9DFF88-984A-F419-4213-2D07B59A1105}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Core.csproj">
+      <Project>{2DE9F09A-C9C3-0274-70F2-A57435704C59}</Project>
+      <Name>Unity.VisualScripting.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.csproj">
+      <Project>{419E2D1B-0FFF-E444-66F9-2F0D52DB4A4D}</Project>
+      <Name>UnityEngine.UI</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.Editor.csproj">
-      <Project>{B5B790FE-F7C8-B4FA-6E48-5F5D41E939EB}</Project>
+      <Project>{3C45FF9B-D25F-69D6-D99F-02B20524DEDD}</Project>
       <Name>Unity.VisualScripting.Core.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Rider.Editor.csproj">
-      <Project>{AAC62AE4-99D4-22A6-7DD1-A0944F482A23}</Project>
+      <Project>{B30C98D2-D722-6020-1985-8E7EBEABDD00}</Project>
       <Name>Unity.Rider.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.State.csproj">
-      <Project>{2F14B3AD-4A0E-4049-5964-48AEEB4EA10F}</Project>
-      <Name>Unity.VisualScripting.State</Name>
-    </ProjectReference>
-    <ProjectReference Include="Cinemachine.csproj">
-      <Project>{D4C3FA58-6305-FC0D-AF5B-325347192F87}</Project>
-      <Name>Cinemachine</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VSCode.Editor.csproj">
-      <Project>{60E320DA-815C-6294-A3E1-7749CD25AFFF}</Project>
-      <Name>Unity.VSCode.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
-      <Project>{649DD3BF-3BF8-AE0B-8724-838C67599A89}</Project>
+      <Project>{3B15D23A-9C33-848E-6BC5-391BC14BE283}</Project>
       <Name>Unity.VisualScripting.Flow</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj">
-      <Project>{A4049FC3-3B76-BE98-7D39-5E8CC3AACC16}</Project>
+      <Project>{594FB426-0F27-66AC-7FF7-75BD09124EAB}</Project>
       <Name>Unity.VisualScripting.Flow.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.csproj">
+      <Project>{D1BB908E-8301-C9FC-FC55-DFE44A2C4B87}</Project>
+      <Name>Unity.Timeline</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj">
+      <Project>{80874D94-9038-8B28-E229-6F91E26F2A0F}</Project>
+      <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.SettingsProvider.Editor.csproj">
+      <Project>{2044BB7B-9219-6FE7-AAB6-F8D8E9256F62}</Project>
+      <Name>Unity.VisualScripting.SettingsProvider.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Performance.Profile-Analyzer.Editor.csproj">
+      <Project>{9D652B5F-DC79-3002-B230-65E67FF416C9}</Project>
+      <Name>Unity.Performance.Profile-Analyzer.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.csproj">
+      <Project>{7499C2A0-ACED-B89E-D91F-DB678F949D24}</Project>
+      <Name>Unity.TestTools.CodeCoverage.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj">
+      <Project>{A4FB4305-661E-EE45-B4F6-11D68408523B}</Project>
+      <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.State.Editor.csproj">
+      <Project>{14CC465F-6D38-0B0E-C3FF-9F14304906A1}</Project>
+      <Name>Unity.VisualScripting.State.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.csproj">
+      <Project>{63ABE38A-CD66-DE31-AF6F-0AF47814835F}</Project>
+      <Name>Unity.TextMeshPro</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
+      <Project>{F07428A1-408E-5130-2188-A1203329E372}</Project>
+      <Name>Unity.TextMeshPro.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.State.csproj">
+      <Project>{E134C5A5-C61E-91E7-BA25-F90457CF259F}</Project>
+      <Name>Unity.VisualScripting.State</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VSCode.Editor.csproj">
+      <Project>{E10ED49B-886C-31C9-7684-0D13C4E6F950}</Project>
+      <Name>Unity.VSCode.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Cinemachine.csproj">
+      <Project>{3BC8AB3B-8447-8EE2-28A0-D71A5742EAE2}</Project>
+      <Name>Cinemachine</Name>
+    </ProjectReference>
+    <ProjectReference Include="RoadArchitect.csproj">
+      <Project>{FD06F128-212F-E200-DF3D-12338B92B642}</Project>
+      <Name>RoadArchitect</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

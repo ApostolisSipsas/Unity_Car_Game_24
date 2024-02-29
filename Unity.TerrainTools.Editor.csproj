@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5EDAAD82-BC07-09FE-A02E-05A5DEC2E79B}</ProjectGuid>
+    <ProjectGuid>{36CE5323-5FCA-D3D0-6065-AB38E935E099}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.TerrainTools.Editor</AssemblyName>
@@ -1105,24 +1105,24 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.TerrainTools.csproj">
-      <Project>{A7D58E05-A6CA-61BA-2A45-91AB44089313}</Project>
+      <Project>{B6ED67D4-19D3-7F50-F0DB-75BB01FE4069}</Project>
       <Name>Unity.TerrainTools</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{DA7744C3-E827-CDC9-5E4B-850ADC7D37B7}</Project>
+      <Project>{5C9DFF88-984A-F419-4213-2D07B59A1105}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{C60097FD-FF72-7607-D156-CB54DEEE4E73}</Project>
+      <Project>{419E2D1B-0FFF-E444-66F9-2F0D52DB4A4D}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{F01DB59D-431E-9A5C-CC8F-14F60B7ACCDA}</Project>
-      <Name>UnityEngine.TestRunner</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{24288564-232F-0804-C117-7B3BBC0BBE2A}</Project>
+      <Project>{85F3155F-5CF4-6155-C98B-135A791991EB}</Project>
       <Name>UnityEditor.TestRunner</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.TestRunner.csproj">
+      <Project>{95E14790-470C-A27C-4254-5E96E40D3498}</Project>
+      <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -22,14 +22,18 @@ public class CarController : MonoBehaviour
     public float maxSteeringAngle = 30f;
     public float motorForce = 500f;
     public float brakeForce = 0f;
-
-
+    public GameObject car;
     private void FixedUpdate()
     {
+        
         GetInput();
         HandleMotor();
         HandleSteering();
         UpdateWheels();
+
+
+
+        car.transform.Rotate(new Vector3(0, 0, car.transform.rotation.z));
     }
 
     private void GetInput()
@@ -50,8 +54,6 @@ public class CarController : MonoBehaviour
     {
         frontLeftWheelCollider.motorTorque = verticalInput * motorForce;
         frontRightWheelCollider.motorTorque = verticalInput * motorForce;
-        rearLeftWheelCollider.motorTorque = (verticalInput * motorForce)/2f;
-        rearRightWheelCollider.motorTorque = (verticalInput * motorForce)/2f;
         brakeForce = isBreaking ? 3000f : 0f;
         frontLeftWheelCollider.brakeTorque = brakeForce;
         frontRightWheelCollider.brakeTorque = brakeForce;

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sipsa\\OneDrive\\Documents\\GitHub\\Unity_Car_Game_24\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8EE395DB-C0DD-1067-4D7E-274C2C29BFBB}|Assembly-CSharp.csproj|c:\\users\\sipsa\\onedrive\\documents\\github\\unity_car_game_24\\assets\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EE395DB-C0DD-1067-4D7E-274C2C29BFBB}|Assembly-CSharp.csproj|solutionrelative:assets\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "playerMove.cs",
+              "DocumentMoniker": "C:\\Users\\sipsa\\OneDrive\\Documents\\GitHub\\Unity_Car_Game_24\\Assets\\playerMove.cs",
+              "RelativeDocumentMoniker": "Assets\\playerMove.cs",
+              "ToolTip": "C:\\Users\\sipsa\\OneDrive\\Documents\\GitHub\\Unity_Car_Game_24\\Assets\\playerMove.cs",
+              "RelativeToolTip": "Assets\\playerMove.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAkwCMAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T14:31:18.576Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
